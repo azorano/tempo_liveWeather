@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="pt">
+<head>
+<meta charset="utf-8">
+<title>Dá p'ra secar hoje? | Live weather</title>
+<meta name="viewport" content="minimal-ui, width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+<meta name="robots" content="none" />
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+<meta http-equiv="Pragma" content="no-cache" />
+<meta http-equiv="Expires" content="0" />
+<link type="text/css" rel="stylesheet" href="https://www.azorano.com/assets/v1/normalize.css?v=1.1"  media="screen"/>
+<link type="text/css" rel="stylesheet" href="https://www.azorano.com/assets/v1/mdb/css/bootstrap.min.css?v=1.1"  media="screen"/>
+<link type="text/css" rel="stylesheet" href="https://www.azorano.com/assets/v1/mdb/css/mdb.min.css?v=1.1"  media="screen"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link type="text/css" rel="stylesheet" href="css/style.css?v=1.1"  media="screen"/>
+</head>
+
+<body>
+<div class="container-fluid p-2 min-vh-100">
+	
+  <div class="jumbotron text-center bg-light">
+    <h1>Dá p'ra secar hoje?</h1>
+    <button type="button" class="btn btn-sm btn-primary" data-toggle="modal" data-target="#roadmapModal"> Roadmap </button>
+  </div>
+	
+<div id="data" class="container d-flex justify-content-between flex-wrap flex-row"> </div>
+</div>
+	
+<div class="fixed-bottom text-center mb-4 mr-2 bg-dark text-white azorano"><sup style="line-height:2.5">azorano</sup></div>
+
+<!-- Modal -->
+<div class="modal fade" id="roadmapModal" tabindex="-1" role="dialog" aria-labelledby="roadmapModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="roadmapModalLabel">"Dá p'ra secar hoje?" app Roadmap</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span> </button>
+      </div>
+      <div class="modal-body">
+        <div class="col-12 p-0 m-0 mb-5">
+          <div class="col-1 m-0 p-1 float-right bg-light text-center" id="pt">PT</div>
+          <div class="col-1 m-0 p-1 float-right bg-info text-center" id="en">EN</div>
+        </div>
+        <ul class="d-block" id="block_en">
+          <li>fetch data every hour and save data into DB using server-side language</li>
+			<li>search, find and location feature</li>
+          <li>extend it to other locations</li>
+          <li>put humidity factor into the equation</li>
+          <li>colorize icons</li>
+          <li>prettify layout</li>
+        </ul>
+        <ul class="d-none" id="block_pt">
+		  <li>obter dados todas as hora e salvar na base de dados usando a linguagem de relação com servidor</li>
+          <li>recurso de pesquisa e localização</li>
+          <li>estender a informação para outros locais</li>
+          <li>ter em conta o fator humidade</li>
+          <li>colorir os ícones</li>
+          <li>melhorar a apresentação</li>
+        </ul>
+        <div class="float-right font-italic font-weight-bold" style="font-size: 9px">v1.0</div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-sm btn-dark" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal -->	
+	
+<script src="https://www.azorano.com/assets/v1/mdb/js/jquery.min.js?v=1.1"></script> 
+<script src="https://www.azorano.com/assets/v1/mdb/js/bootstrap.min.js?v=1.1"></script> 
+<script src="https://www.azorano.com/assets/v1/mdb/js/mdb.min.js?v=1.1"></script> 
+<script src="js/js.js"></script> 
+
+</body>
+</html>

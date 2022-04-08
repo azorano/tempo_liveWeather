@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@100;500;700&display=swap');
+* {
+  -webkit-overflow-scrolling: touch;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+html, body {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 100;
+  line-height: 1
+}
+.azorano {
+  width: 50px;
+  height: 20px;
+  margin-left: auto;
+  line-height: 1;
+}
+#pt, #en:hover {
+	cursor: pointer
+}
+.card {
+  width: 300px
+}
+/*.hpa {
+  line-height: 1.5
+}*/
+#da_pra_secar {
+  line-height: 1.7
+}
+.hpa span {
+  font-size: 12px;
+  margin: 0;
+}
+.hpa p {
+  margin-bottom: 0
+}
+.hpa {
+  margin-bottom: 13px;
+  font-size: 13px
+}
+.hpa:last-child {
+  margin-bottom: 0px !important;
+}
+.c {
+  top: -38px;
+  position: relative;
+  font-size: 35%;
+}
+.desc {
+  font-size: 14.5px
+}
+.desc span {
+  text-align: center
+}
+.collapse-content a.collapsed::after {
+  content: "mais";
+}
+.tooltip {
+  font-size: 9px;
+  top: -2px !important;
+}
+.left {
+  left: 79px !important;
+}
+a {
+  text-decoration: none;
+}
+a:link, a:visited {
+  color: blue;
+}
+a:hover {
+  color: lightblue;
+}
+p, a {
+  -webkit-font-smoothing: antialiased !important;
+  text-rendering: optimizeLegibility !important;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px !important;
+}
+i {
+  text-rendering: geometricPrecision !important;
+}
+.tooltips {
+  position: relative;
+  display: inline-block;
+}
+.tooltips .tooltipstext {
+  visibility: visible;
+  width: 35px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  /* padding: 5px 0; */
+  border-radius: 6px;
+  position: absolute;
+  z-index: 1;
+  height: 20px;
+  top: -22px;
+  line-height: 20px;
+}
+/*
+.tooltips:hover .tooltipstext {
+  visibility: visible;
+}
+*/
+.progress, .md-progress {
+  overflow: visible
+}
